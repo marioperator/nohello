@@ -5,10 +5,15 @@
   <title>Redirecting...</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script>
+    // Lingue supportate
     const supportedLangs = ['en', 'it', 'de', 'fr', 'es', 'pt', 'zh', 'ja'];
+    // Rileva la lingua del browser (i primi 2 caratteri della lingua)
     const browserLang = (navigator.language || navigator.userLanguage || 'en').slice(0, 2).toLowerCase();
+    // Determina la lingua di redirect (se la lingua del browser è supportata)
     const redirectLang = supportedLangs.includes(browserLang) ? browserLang : 'en';
-    const basePath = window.location.pathname.includes('/multilang_site/') ? '/multilang_site/' : '/';
+    // Costruisci il path per il redirect
+    const basePath = '/nohello';  // Root per il sito (per esempio https://marioperator.github.io/nohello)
+    // Esegui il redirect
     window.location.replace(`${basePath}/${redirectLang}/`);
   </script>
 </head>
