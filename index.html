@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+    const supportedLangs = ['en', 'it', 'de', 'fr', 'es', 'pt', 'zh', 'ja'];
+    const browserLang = (navigator.language || navigator.userLanguage || 'en').slice(0, 2).toLowerCase();
+    const redirectLang = supportedLangs.includes(browserLang) ? browserLang : 'en';
+    const basePath = window.location.pathname.includes('/multilang_site/') ? '/multilang_site/' : '/';
+    window.location.replace(`${basePath}${redirectLang}/`);
+  </script>
+</head>
+<body>
+  <p>Redirecting to your language version...</p>
+</body>
+</html>
