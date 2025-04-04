@@ -9,7 +9,7 @@
     const browserLang = (navigator.language || navigator.userLanguage || 'en').slice(0, 2).toLowerCase();
     const redirectLang = supportedLangs.includes(browserLang) ? browserLang : 'en';
     const basePath = window.location.pathname.includes('/multilang_site/') ? '/multilang_site/' : '/';
-    window.location.replace(`${basePath}${redirectLang}/`);
+    window.location.replace(`${basePath}/${redirectLang}/`);
   </script>
 </head>
 <body>
