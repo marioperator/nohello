@@ -10,6 +10,8 @@ var typed2 = new Typed('#strike', {
     'morning!',
     'hallo',
     'ciao',
+    'Hai un secondo?',
+    'Domanda al volo',
     '&#128075;',
     'namaste',
     'hoi',
