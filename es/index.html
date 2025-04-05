@@ -1,21 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    ...
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-169824146-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-169824146-1');
+    </script>
+
     <title>no hello</title>
-    ...
-    <!-- meta primaria -->
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+
+    <!-- primary meta -->
     <meta name="title" content="no hello" />
     <meta name="description" content="por favor no digas solo hola en el chat" />
 
     <!-- opengraph/facebook -->
-    ...
-    <meta property="og:description" content="Por favor, no digas solo hola en el chat" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://marioperator.github.io/nohello" />
+    <meta property="og:title" content="no hello" />
+    <meta
+      property="og:description"
+      content="por favor no digas solo hola en el chat"
+    />
+    <meta property="og:image" content="img/why.gif" />
 
     <!-- twitter -->
-    ...
-    <meta property="twitter:description" content="por favor no digas solo hola en el chat" />
-    ...
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:url" content="https://marioperator.github.io/nohello" />
+    <meta property="twitter:title" content="no hello" />
+    <meta
+      property="twitter:description"
+      content="por favor no digas solo hola en el chat"
+    />
+    <meta
+      property="twitter:image"
+      content="img/newmeta.png"
+    />
+
+    <!-- icons -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="icon" href="favicon.png" type="image/x-icon" />
   </head>
   <body>
     <div id="wholesite">
@@ -30,23 +65,48 @@
           <span class="subtitle">por favor no digas solo hola en el chat</span>
 
           <h2 class="lead">
-            Imagina llamar a alguien por teléfono, decir
-            <span style="font-style: oblique">¡hola!</span> y luego dejarlo esperando... 🤦‍♀️
+            Imagina que llamas a alguien por teléfono, dices
+            <span style="font-style: oblique">¡hola!</span> y luego lo pones en espera... 🤦‍♀️
           </h2>
         </div>
       </div>
 
-      ...
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+      <script src="nohello.js"></script>
+      <script src="hello.js"></script>
 
       <div class="container">
         <div class="sections sectionleft">
-          <h2 class="section-title">❌ No lo hagas</h2>
+          <h2 class="section-title">❌ No hagas esto</h2>
 
           <div class="list-card example one">
-            ...
-            <span class="slackmessage">¿a qué hora era eso?</span>
-            ...
-            <span class="slackmessage">oh - 15:30 </span>
+            <div class="slack">
+              <img src="img/keith.png" alt="Keith's Slack avatar" />
+              <span class="slackname">Keith</span>
+              <span class="slacktime">2:15 PM</span><br />
+              <span class="slackmessage">hola</span>
+            </div>
+
+            <div class="slack">
+              <img src="img/tim.png" alt="Tim's Slack avatar" />
+              <span class="slackname">Tim</span>
+              <span class="slacktime">2:19 PM</span><br />
+              <span class="slackmessage">...?</span>
+            </div>
+
+            <div class="slack">
+              <img src="img/keith.png" alt="Keith's Slack avatar" />
+              <span class="slackname">Keith</span>
+              <span class="slacktime">2:20 PM</span><br />
+              <span class="slackmessage">¿A qué hora era eso otra vez?</span>
+            </div>
+
+            <div class="slack">
+              <img src="img/tim.png" alt="Tim's Slack avatar" />
+              <span class="slackname">Tim</span>
+              <span class="slacktime">2:20 PM</span><br />
+              <span class="slackmessage">ah - 3:30 amigo</span>
+            </div>
           </div>
         </div>
 
@@ -54,27 +114,36 @@
           <div class="list-card">
             <div>
               <p>
-                Nota que Keith podría haber respondido varios minutos antes, y no necesitaba dejar a Tim esperando. De hecho, ¡Tim podría haber empezado a pensar en la pregunta de inmediato!
+                Nota que Keith podría haber obtenido su respuesta minutos antes y
+                no habría hecho esperar a Tim. De hecho, ¡Tim podría haber empezado
+                a pensar en la pregunta de inmediato!
               </p>
 
               <p>
-                Las personas que hacen esto generalmente intentan ser amables evitando ir directamente al grano, como se hace en persona o por teléfono – ¡y eso está bien! Pero estamos en
-                <span id="year">1990</span>
-                y el chat no es ni una cosa ni la otra. La mayoría de las personas escribe mucho más lento de lo que habla. Así que, a pesar de las buenas intenciones,
-                <strong>básicamente estás dejando a la otra persona en espera</strong>
-                de tu pregunta, lo cual es una pérdida de tiempo (y un poco molesto).
+                Las personas que hacen esto generalmente están tratando de ser
+                amables al no ir directo a la solicitud, como lo harían en persona
+                o por teléfono, ¡y eso está bien! Pero
+                <span id="year">no estamos en 1990</span>
+                y el chat no es ninguna de esas cosas. Para la mayoría de las
+                personas, escribir es mucho más lento que hablar. Así que, a pesar
+                de las buenas intenciones,
+                <strong
+                  >en realidad solo estás haciendo esperar a la otra persona</strong
+                >
+                mientras formulas tu pregunta, lo cual es pérdida de productividad
+                (y algo molesto).
               </p>
 
               <p>Lo mismo aplica para:</p>
               <ul class="nonos">
-                <li>"Hola, ¿estás?"</li>
-                <li>"Hola Sophie - una pregunta rápida."</li>
-                <li>"¿Tienes un segundo?"</li>
-                <li>"¿Estás ahí?"</li>
+                <li>"Hola, ¿estás por aquí?"</li>
+                <li>"hola sofía - una pregunta rápida."</li>
+                <li>"¿Tienes un momento?"</li>
+                <li>"¿yt?"</li>
                 <li>"ping"</li>
                 <li>etc.</li>
               </ul>
-              <p><strong>¡Haz la pregunta directamente!</strong> 😫</p>
+              <p><strong>¡Solo haz la pregunta!</strong> 😫</p>
             </div>
           </div>
         </div>
@@ -82,13 +151,36 @@
 
       <div class="container">
         <div class="sections sectionleft">
-          <h2 class="section-title yepyep">✅ Intenta esto en su lugar</h2>
+          <h2 class="section-title yepyep">✅ En su lugar intenta esto</h2>
 
           <div class="list-card example two">
-            ...
-            <span class="slackmessage">¡Hola! ¿A qué hora era eso?</span>
-            ...
-            <span class="slackmessage">Gracias - ¡nos vemos entonces!</span>
+            <div class="slack">
+              <img src="img/dawn.png" alt="Dawn's Slack avatar" />
+              <span class="slackname">Dawn</span>
+              <span class="slacktime">2:15 PM</span><br />
+              <span class="slackmessage">¡Hola! ¿A qué hora era eso?</span>
+            </div>
+
+            <div class="slack">
+              <img src="img/tim.png" alt="Tim's Slack avatar" />
+              <span class="slackname">Tim</span>
+              <span class="slacktime">2:15 PM</span><br />
+              <span class="slackmessage">hey, 3:30</span>
+            </div>
+
+            <div class="slack">
+              <img src="img/dawn.png" alt="Dawn's Slack avatar" />
+              <span class="slackname">Dawn</span>
+              <span class="slacktime">2:15 PM</span><br />
+              <span class="slackmessage">Gracias - ¡nos vemos!</span>
+            </div>
+
+            <div class="slack">
+              <img src="img/tim.png" alt="Tim's Slack avatar" />
+              <span class="slackname">Tim</span>
+              <span class="slacktime">2:16 PM</span><br />
+              <span class="slackmessage">👌 no hay problema</span>
+            </div>
           </div>
         </div>
 
@@ -96,29 +188,37 @@
           <div class="list-card">
             <div>
               <p>
-                Si piensas que puede parecer algo brusco decir simplemente "Hola" y hacer la pregunta,
-                <strong>puedes empezar tu mensaje con todos los saludos que quieras.</strong>
+                Si sientes que es algo brusco simplemente decir "Hola" y hacer la
+                pregunta,
+                <strong
+                  >aún puedes comenzar tu mensaje con todas las cortesías que
+                  desees.</strong
+                >
               </p>
 
               <p>Por ejemplo:</p>
 
               <ul class="muchbetter">
                 <li>
-                  "Hey, ¿cómo estás? ¿Tienes idea de la fecha límite de eso?"
+                  "hola amigo, ¿cómo estás? por cierto, ¿sabes cuándo vence eso?"
                 </li>
                 <li>
-                  "¡Hola! Espero que estés bien. Estoy buscando la última presentación, cuando tengas un momento :)"
+                  "¡Hola! Espero que estés bien. Busco la última presentación, cuando
+                  tengas un momento :)"
                 </li>
-                <li>"Hola, si no estás ocupado, ¿podrías actualizar esas NFR?"</li>
+                <li>"oye, si no estás ocupado, ¿puedes actualizar esos NFRs?"</li>
                 <li>etc.</li>
               </ul>
 
               <p>
-                Puede parecer algo menor, pero hacer la pregunta antes de recibir esa respuesta de saludo inicial permite una
-                <strong>comunicación asíncrona</strong>. Si la otra persona no está disponible, y tú no estás disponible cuando vuelva, aún así podrá responder tu pregunta, en lugar de encontrarse con un "Hola" y preguntarse qué se perdió.
+                Puede parecer trivial, pero hacer tu pregunta antes de recibir un
+                saludo también permite una
+                <strong>comunicación asincrónica</strong>. Si la otra persona no
+                está, y tú te vas antes de que regrese, aún puede responderte, en
+                lugar de simplemente ver un "Hola" y preguntarse qué se perdió.
               </p>
 
-              <p>¡Cuando se hace bien la pregunta – todos están felices! 🎉</p>
+              <p>¡Cuando se hace bien, todos felices! 🎉</p>
             </div>
           </div>
         </div>
@@ -126,12 +226,20 @@
 
       <footer class="container">
         <span>
-          Todo esto es en serio solo a medias (más o menos 👀) así que, por favor, no <a href="https://www.youtube.com/watch?v=mkJK_44YZ_I">te enfades</a> con la persona que te envió aquí.<br /><br />Dicho esto, si ves la URL de este sitio como estado/bio de alguien, prepárate para ser ignorado si solo dices "¡Hola!"<br /><br />Basado en el maravilloso
-          <a href="https://web.archive.org/web/20131127020115/http://www.nohello.com/">nohello.com</a>. Avatares tomados de
+          Esto es medio en serio (más o menos 👀), así que por favor no te enojes con la persona que te mandó aquí.<br /><br />Dicho esto, si ves la URL de este sitio en el estado o bio de alguien, prepárate para ser ignorado si solo dices "¡Hola!"<br /><br />Basado en el maravilloso
+          <a
+            href="https://web.archive.org/web/20131127020115/http://www.nohello.com/"
+            >nohello.com</a
+          >. Avatares tomados de
           <em>
-            <a href="https://en.wikipedia.org/wiki/The_Office_(American_TV_series)">The Office</a>
-          </em>. Código fuente disponible en
-          <a href="https://github.com/nohello-net/nohello-net.github.io">GitHub</a>.
+            <a
+              href="https://es.wikipedia.org/wiki/The_Office_(serie_de_televisi%C3%B3n_de_Estados_Unidos)"
+              >The Office</a
+            ></em
+          >. Código abierto en
+          <a href="https://github.com/nohello-net/nohello-net.github.io"
+            >GitHub</a
+          >.
         </span>
       </footer>
     </div>
