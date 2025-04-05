@@ -22,7 +22,7 @@ Currently, the website is available in the following languages:
 - **Spanish** (`/es`)
 - **Portuguese** (`/pt`)
 - **Japanese** (`/ja`)
-- **Chinese (Simplified)** (`/zh`) - coming soon
+- **Chinese (Simplified)** (`/zh`)
 - **German** (`/de`)
 
 ### Directory Structure
