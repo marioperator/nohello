@@ -1,7 +1,7 @@
 # nohello
 
 **nohello** is a simple web project that encourages more efficient and direct communication, particularly in chat environments. It highlights the unnecessary practice of just saying "Hello" in a conversation without immediately getting to the point.
-This is a fork from  <a href="https://github.com/nohello-net/site">nohello.net</a>.
+This is a fork from  <a href="https://github.com/nohello-net/site">nohello.net</a>, but this fork working with github pages.
 This repository contains a multi-language version of the website, where users can choose their preferred language for an improved experience.
 
 ## 💡 Description
