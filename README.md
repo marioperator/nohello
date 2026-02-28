@@ -13,7 +13,7 @@ The **nohello** project aims to encourage users to avoid unnecessary pleasantrie
 
 Imagine calling someone on the phone and saying, "Hello!" then immediately putting them on hold. Wouldn't it be more efficient to just get to the point right away? This project raises awareness about that behavior and offers better alternatives for efficient communication.
 
-⚡ For IT professionals, unnecessary greetings in chat without proper context or a specific request can be extremely disruptive. This highlights how a “no hello” approach helps keep communications direct and efficient, ensuring that team members can immediately understand the purpose of the message and act on it effectively.
+⚡ For IT professionals, unnecessary greetings in chat without proper context or a specific request can be extremely disruptive. This project highlights how a “no hello” approach helps keep communications direct and efficient, ensuring that team members can immediately understand the purpose of the message and act on it effectively.
 
 ## 🌍 Available Languages
 
