@@ -1,7 +1,8 @@
 var typed2 = new Typed('#strike', {
   strings: [
+    'ciao',
     'hello',
-    'hi',
+    "Ping!"
     'hey',
     "Solo un secondo...",
     'Ciao, una domanda tanto ci metti 1 minuto..',
@@ -9,13 +10,15 @@ var typed2 = new Typed('#strike', {
     'Hai un attimo?',
     'Ciao, ci sei?',
     'Un attimo quando puoi...',
-    'ciao',
+    '&#128075;',
     'Hai un secondo?',
     'Domanda al volo',
-    '&#128075;',
+    "Ehi, ti coinvolgo un attimo…",
+    "Ciao, puoi aiutarmi? 😇",
+    "Solo un secondo...",
+    'Ugente, ci sei?',
     'Help?',
     'hoi',
-    "m'athchomaroon",
     'hiya',
     'Привет',
     'you got a sec?',
