@@ -2,7 +2,7 @@ var typed2 = new Typed('#strike', {
   strings: [
     'ciao',
     'hello',
-    "Ping!"
+    "Ping!",
     'hey',
     "Solo un secondo...",
     'Ciao, una domanda tanto ci metti 1 minuto..',
