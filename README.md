@@ -3,8 +3,10 @@
 **nohello** is a simple web project that encourages more efficient and direct communication, particularly in chat environments. It highlights the unnecessary practice of just saying "Hello" in a conversation without immediately getting to the point.
 This is a fork from  <a href="https://github.com/nohello-net/site">nohello.net</a>, but this fork working with github pages.
 This repository contains a multi-language version of the website, where users can choose their preferred language for an improved experience.
-While it preserves the original functionality, this fork focuses on **observing and highlighting how the “no hello” phenomenon occurs in Italy** and the local behaviors related to it.
+While it preserves the original functionality, thhis fork emphasizes the **Italian context**, showing how users in Italy interact in chat and messaging environments where the “no hello” behavior is relevant.
 
+> ⚡ For IT professionals, unnecessary greetings in chat without proper context or a specific request can be extremely disruptive. This highlights how a “no hello” approach helps keep communications direct and efficient, ensuring that team members can immediately understand the purpose of the message and act on it effectively.
+ 
 ## 💡 Description
 
 The **nohello** project aims to encourage users to avoid unnecessary pleasantries such as "Hello" before asking a question. While these greetings are meant to be polite, they often result in wasted time and decreased productivity in fast-paced environments like chat.
