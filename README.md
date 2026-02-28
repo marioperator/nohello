@@ -4,8 +4,6 @@
 This is a fork from  <a href="https://github.com/nohello-net/site">nohello.net</a>, but this fork working with github pages.
 This repository contains a multi-language version of the website, where users can choose their preferred language for an improved experience.
 While it preserves the original functionality, thhis fork emphasizes the **Italian context**, showing how users in Italy interact in chat and messaging environments where the “no hello” behavior is relevant.
-
-> ⚡ For IT professionals, unnecessary greetings in chat without proper context or a specific request can be extremely disruptive. This highlights how a “no hello” approach helps keep communications direct and efficient, ensuring that team members can immediately understand the purpose of the message and act on it effectively.
  
 ## 💡 Description
 
@@ -14,6 +12,8 @@ The **nohello** project aims to encourage users to avoid unnecessary pleasantrie
 ### Why this project?
 
 Imagine calling someone on the phone and saying, "Hello!" then immediately putting them on hold. Wouldn't it be more efficient to just get to the point right away? This project raises awareness about that behavior and offers better alternatives for efficient communication.
+
+⚡ For IT professionals, unnecessary greetings in chat without proper context or a specific request can be extremely disruptive. This highlights how a “no hello” approach helps keep communications direct and efficient, ensuring that team members can immediately understand the purpose of the message and act on it effectively.
 
 ## 🌍 Available Languages
 
