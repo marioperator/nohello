@@ -6,7 +6,6 @@ var typed2 = new Typed('#strike', {
     'Ciao, Solo un secondo...',
     'Ciao, domanda tanto ci metti 1 minuto..',
     'Sei online?',
-    'Ciao ti vedo occupato, posso disturbarti?',
     'Ciao, buondì',
     'Hai un attimo?',
     'Ci sei per caso?',
