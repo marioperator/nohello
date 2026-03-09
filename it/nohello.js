@@ -23,6 +23,7 @@ var typed2 = new Typed('#strike', {
     'domanda rapida...',
     'Help?',
     'Voilà',
+    'Ciao, quando sei libero che ti coinvolgo per una cosa velocissima?',
   ],
   typeSpeed: 80,
   backSpeed: 60,
