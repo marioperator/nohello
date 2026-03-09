@@ -19,7 +19,7 @@ var typed2 = new Typed('#strike', {
     "Ehi, ti coinvolgo un attimo…",
     "Ciao, puoi aiutarmi? 😇",
     "Ping!",
-    'Ugente, ci sei?',
+    'Ciao, urgente, ci sei?',
     'domanda rapida...',
     'Help?',
     'Voilà',
